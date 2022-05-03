@@ -2,7 +2,7 @@
   * manager. i.e: Yarn
   */
 object FrontendCommands {
-  val dependencyInstall: String = "yarn install"
+  val dependencyInstall: String = "npm install"
   val prettier: String = "npx prettier --write ."
   val prettierCheck: String = "npx prettier --check ."
   val eslint = "npx eslint --max-warnings 0 --fix ."
